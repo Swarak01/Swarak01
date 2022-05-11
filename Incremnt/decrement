@@ -1,0 +1,41 @@
+void main(){
+  
+  int a;
+  int b=10;
+  
+  //pre increment operator
+  a = ++b;
+  
+  print("a $a");
+  print("b $b");
+  
+  //post increment operator
+  a = b++;
+  
+  print("a $a");
+  print("b $b");
+  
+  //pre decrement operator
+  a = --b;
+  
+  print("a $a");
+  print("b $b");
+  
+  //post decrement operator
+  a = b--;
+  
+  print("a $a");
+  print("b $b");
+  
+}
+
+
+Output:-
+a 11
+b 11
+a 11
+b 12
+a 11
+b 11
+a 11
+b 10
