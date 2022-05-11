@@ -1,0 +1,27 @@
+void main(){
+  
+  //while loop example(This loop used whenver we dont know how many times we have to run the flow also this is the best loop for use )
+  
+  int i=0;
+  while(i<=5)
+  {
+    print("Hello");
+    print(i);
+    i++;  
+  } 
+}
+
+
+Output:
+Hello
+0
+Hello
+1
+Hello
+2
+Hello
+3
+Hello
+4
+Hello
+5
