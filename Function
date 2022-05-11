@@ -1,0 +1,22 @@
+ //Function and Method
+ //Area of rectangle
+ //required parameter
+  
+  void main(){
+  
+    rectArea();
+  
+  }
+
+void rectArea()
+{
+  int l=5;
+  int b=10;
+  
+  int a =l*b;
+  
+  print("Area of rectangle $a");
+}
+
+Output:
+Area of rectangle 50
