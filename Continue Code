@@ -1,0 +1,27 @@
+void main(){
+  
+  //continue statement is used to skip the print statement when it meets if condition else print the values directly
+
+for(int i=1;i<=10;i++)
+{
+  if(i==5)
+  {
+    continue;
+  }
+ 
+  print(i);
+  
+}
+
+}
+
+Output:
+1
+2
+3
+4
+6
+7
+8
+9
+10
