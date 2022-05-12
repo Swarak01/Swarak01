@@ -1,0 +1,20 @@
+//Function as expression(We use expression to shorten our code and make it in a consice way to look good)
+ //Short hand syntax
+ //By using Fat Arrow
+ //With Required parameter
+ 
+  void main(){
+  
+    rectArea(2,6);
+  int p= perimeter(4,7);
+   print("Perimeter of Rectangle $p");
+  }
+
+void rectArea(int l, int b)=>print("Area of rectangle ${l*b}");
+
+
+int perimeter(int l, int b)=> 2*(l+b);
+  
+Output:
+Area of rectangle 12
+Perimeter of Rectangle 22
