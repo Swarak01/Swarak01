@@ -4,8 +4,8 @@
   void main(){
   
     rectArea(2,6);
-    int a=perimeter(4,7);
-    print("Perimeter of rectangle $a");
+    int p=perimeter(4,7);
+    print("Perimeter of rectangle $p");
   }
 
 void rectArea(int l, int b)
@@ -17,8 +17,8 @@ void rectArea(int l, int b)
 
 int perimeter(int l, int b)
 {
-  int a= 2*(l+b);
-  return a;
+  int p= 2*(l+b);
+  return p;
  
 } 
 
