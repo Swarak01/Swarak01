@@ -1,0 +1,17 @@
+//Optional positional parameter
+//We must add a question mark after datatype and square bracket around for positonal parameter.
+void main(){
+  
+  cityName('Mumbai');
+  
+}
+ 
+void cityName(String a ,[String? b]) 
+{
+  print("City name is $a");
+  print("City name is $b");
+}
+
+Output:-
+City name is Mumbai
+City name is null
