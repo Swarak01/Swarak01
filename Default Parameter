@@ -1,0 +1,45 @@
+ //Default parameter
+ //Default parameter denotes by declare the parameters in method itslef.
+//If we want to change the default value then we have to assign the value in main method. 
+
+void main(){
+  
+  volumeBox(2,4);
+  
+}
+
+//This h=10 is the default parameter declared in the method.So System will automatically take the vale of "h=10"
+void volumeBox(int l,int b, {int h=10}) 
+{
+  int v= l*b*h;
+  
+  print("Volume of a Box is $v");
+  
+}
+ 
+ Output:
+ Volume of a Box is 80
+ 
+ //If we want to change the default value then we have to assign the value in main method. 
+ //Default parameter
+ //Default parameter denotes by declare the parameters in method itslef.
+//If we want to change the default value then we have to assign the value in main method. 
+
+
+void main(){
+  //h:6 denotes the value assigned over the default value.
+  volumeBox(2,4,h:6);
+  
+}
+
+//This h=10 is the default parameter declared in the method.So System will automatically take the vale of "h=10"
+void volumeBox(int l,int b, {int h=10}) 
+{
+  int v= l*b*h;
+  
+  print("Volume of a Box is $v");
+  
+}
+
+Output:
+Volume of a Box is 48
