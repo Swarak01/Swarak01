@@ -1,0 +1,18 @@
+ //Named parameter
+ //Named parameter denoted with curly brackets{} and we have to denote the values as with variable name.
+//Still Error code
+void main(){
+  
+  volumeBox(2,b:4,h:6);
+  
+}
+ 
+void volumeBox(int l ,{int? b, int? h})
+{
+  int v= l*b*h;
+  
+  print("City name is $v");
+  
+}
+ Output:-
+ 
